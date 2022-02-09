@@ -1,0 +1,20 @@
+{
+  "name": "sveltekit-playwright-vitest-setup",
+  "version": "1.0.0",
+  "scripts": {
+    "💡 preinstall": "block accidental npm commends - delete if you want to use npm",
+    "preinstall": "npx only-allow pnpm",
+    "💡 dev:app": "run dev script of app",
+    "dev:app": "pnpm -r run dev --filter ./app",
+    "💡 test:unit": "run unit tests of app",
+    "test:unit": "pnpm -r run test --filter ./app",
+    "💡 test:e2e": "run e2e tests",
+    "test:e2e": "pnpm -r test --filter ./e2e-tests"
+  },
+  "private": true,
+  "devDependencies": {
+    "prettier": "2.5.1",
+    "tslib": "2.3.1",
+    "typescript": "4.5.5"
+  }
+}
